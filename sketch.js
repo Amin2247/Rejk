@@ -1,4 +1,11 @@
 let index = 2;  
+function preload() {
+  myFont = loadFont('assets/PressStart2P-Regular.ttf');
+  whiteVoid = loadImage('assets/1.png');
+  blackVoid = loadImage('assets/2.png');
+  centerVoid = loadImage('assets/3.png');
+  cursorImg = loadImage('assets/4.png');
+}
 
 function setup() {
   createCanvas(700, 700);
